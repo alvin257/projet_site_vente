@@ -1,0 +1,66 @@
+.btn:hover{
+	background-color: wheat ;	
+}
+.tableau{
+	background-color: grey;
+	color: white;
+	padding-top: 500px;
+	border-collapse: collapse;
+	min-width: 400px;
+	width: auto;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+	cursor: pointer;
+	margin: 100px auto;
+	border: 2px solid midnightblue;
+}
+thead tr{
+	background-color: midnightblue;
+	color: #fff;
+	text-align: left;
+}
+th, td{
+	padding: 15px 20px;
+}
+tbody tr, td, th{
+	border: 1px solid #ddd;
+}
+tbody tr:nth-child(even){
+	background-color: grey;
+}
+tbody tr:last-of-type{
+	border-bottom: 2px solid blue;
+}
+
+footer{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	margin-top: 500px;
+	background-color: white;
+}
+#chat-container {
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  margin-left:75%;
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid black;
+  padding: 10px;
+  background-color:white;
+}
+
+#chat-input-area{
+	position:fixed;
+	margin-top:100px;
+	width:250px;
+	height:25px;
+}
+
+#chat-window{
+	margin-top:5px;
+}
+
+#message-input {
+    width: 50%;
+}
